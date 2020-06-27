@@ -1,5 +1,5 @@
 steps:
-- id: "Rodando Teste Unitario"
+- id: "Rodando Teste Unitario Go"
   name: 'gcr.io/cloud-builders/go'
   args: ['test', './src/hpa']
   env: ['GOPATH=.']
